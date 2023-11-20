@@ -12,7 +12,7 @@
 #SBATCH --error=pretrain_STAPLER_%A.err
 
 # activate conda env
-source activate "stapler_env"
+
 
 EXPERIMENT_NAME="pretrain_STAPLER"
 DATE=$(date +%Y-%m-%d)
